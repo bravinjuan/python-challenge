@@ -1,0 +1,8 @@
+INSERT INTO eye_colors SELECT 'blue' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='blue' )
+INSERT INTO eye_colors SELECT 'green' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='green')
+INSERT INTO eye_colors SELECT 'brown' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='brown')
+INSERT INTO eye_colors SELECT 'hazel' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='hazel')
+INSERT INTO eye_colors SELECT 'gray' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='gray' )
+INSERT INTO eye_colors SELECT 'black' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='black')
+INSERT INTO eye_colors SELECT 'amber' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='amber')
+INSERT INTO eye_colors SELECT 'orange' WHERE NOT EXISTS (SELECT * FROM eye_colors WHERE color ='orange')
